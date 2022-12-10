@@ -1,0 +1,66 @@
+JavaScrip 2
+
+1. Why is it important to write clean code?
+    Teamwork support. Somebody else may work with that code so it's to ease that someboduy's job, but our's as well.
+2. What is the difference between good comments and bad comments?
+    Comments are meant to explain the concise and detailed functionality and results of the code, 
+    rather than making notes/messages to self or team
+3. What is an array?
+    An array is a special kind of variable type that can hold multiple values.
+4. What are arrays useful for?
+    It's usful to manage and manipulate data with ease.
+5. How do you access an array element?
+    by calling the array name and the element's index in square brackets like so: arrayName[indexNo];
+6. How do you change an array element?
+    You can just assign it another value, can replace it with splice function, delete it(pop), 
+    move it whn altering the array by adding or removing other elements (using push, pop, shift, unshift)
+7. What are some useful array properties?
+    length, prototype, constructor
+8. What are some useful array methods?
+    toEtring(), includes(), foreach(), concat()
+9. What are loops useful for?
+    to iterate through the array's elements
+10.What is the break statement?
+    The break statement interupts the execution of the respective block of code/loop to jump to the next line of code after it.
+11. What is the continue statement?
+    Interupts the execution of the rest of the code in a loop to jump to the next iteration of the loop.
+12.What is the DOM?
+    Stands for Document Object Model and it represents the HTML webpage when loaded into web browser
+13.How do you target the nodes you want to work with?
+    With selectors
+14.How do you create an element in the DOM?
+    document.createElement(element)
+15.How do you add an element to the DOM?
+    parentNode.appendChild(childNode)
+    parentNode.insertBefore(newNode, referenceNode) 
+16.How do you remove an element from the DOM?
+    parentNode.removeChild(child)
+17.How can you alter an element in the DOM?
+    document.replaceChild(new, old)
+18.When adding text to a DOM element, should you use textContent or innerHTML?
+    textContent
+19.Where should you include your JavaScript tag in your HTML file when workingwith DOM nodes?
+    Inside the body of the HTML file
+20.How do “events” and “listeners” work?
+    Events are user interactions with the webpage, and specifie the behaviour of the HTML elements that the user interacted with
+    Listeners are the detectors of certain specific user iteraction
+21.What are three ways to use events in your code?
+    Used as inline event handlers , event handler properties and as event listeners.
+22.Why are event listeners the preferred way to handle events?
+    is allowing us to create multiple event handlers of the event for the same target.
+23.What are the benefits of using named functions in your listeners?
+    For debugging and the ability to remove it with removeEventListener().
+24.How do you attach listeners to groups of nodes?
+    Get a nodelist of all of the items matching a specific selector with querySelectorAll('selector').
+    Then iterate through the list to add listeners to each of them 
+25.What is the difference between the return values of querySelector and querySelectorAll?
+    The first returns a reference of the first match selector, while the second returns a nodelist 
+26.What does a “nodelist” contain?
+    Containis references to all of the matches of the selectors.
+27.Explain the difference between “capture” and “bubbling”.
+    In capturing the event trigger the event handlers of the parents of the target element first, 
+    whilst in bubbling the event handlers of the target are runned first .
+28.What is the difference between objects and arrays?
+    objects have named indexes, while arrays have numbered indexes.
+29.How do you access object properties?
+    dot, square brackest property accessor and object destructuring
